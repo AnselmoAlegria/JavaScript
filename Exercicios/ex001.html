@@ -10,20 +10,18 @@
     <h1>Nacionalidade</h1>
     Vivendo em: <input type="text" name="pais" id="pais">
     <input type="button" value="verificar" onclick="verificar()">
-    <div id="res">
-
-    </div>
-
+    <div id="res"></div>
     <script>
         function verificar () {
-            var text = document.querySelector('input#pais')
+            var txtpais = document.querySelector('input#paises')
             var res = document.querySelector('div#res')
-            var pais = Number(pais.value)
-            res.innerHTML = `<p>Sua nacionalidade é <strong>${pais}</strong>.</p>`
-            if (pais == Brasil) {
-                res.innerHTML += `Você é Brasileiro!`
+            
+            res.innerHTML = `<p>Seu país é <strong>${pais.value}</strong>.</p>`
+            if (pais.value == 'Brasil') {
+                res.innerHTML = `Você é Brasileiro!`
+            } else {
+                res.innerHTML = `Voce é Estrangeiro!`
             }
-                res.innerHTML += `Voce é Estrangeiro!`
         }
     </script>
 </body>
