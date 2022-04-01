@@ -15,25 +15,32 @@ function verificar() {
             genero = 'Homem'
             if (idade >=0 && idade < 10) {
                 //Criança
-                img.setAttribute('src', 'Imagens/bebemenino.jpg')
+                img.setAttribute('src', 'Imagens/bebemenino.png')
             } else if (idade < 21) {
                 //Jovem
+                img.setAttribute('src', 'Imagens/jovemhomem.png')
             } else if (idade < 50) {
                 //Adulto
+                img.setAttribute('src', 'Imagens/adultohomem.png')
             } else {
                 //Idoso
+                img.setAttribute('src', 'Imagens/idosohomem.png')
             }
             
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >=0 && idade < 10) {
                 //Criança
+                img.setAttribute('src', 'Imagens/bebemenina.png')
             } else if (idade < 21) {
                 //Jovem
+                img.setAttribute('src', 'Imagens/jovemmulher.png')
             } else if (idade < 50) {
                 //Adulto
+                img.setAttribute('src', 'Imagens/adultomulher.png')
             } else {
                 //Idoso
+                img.setAttribute('src', 'Imagens/idosomulher.png')
             }
         }
         res.style.textAlign = 'center'
