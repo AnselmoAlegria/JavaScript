@@ -51,7 +51,7 @@ function verificar() {
             } else if (idade <= 24) {
                 //Jovem
                 img.setAttribute('src', 'Imagens/jovemmulher.png')
-            } else if (idade <= 65) {
+            } else if (idade <= ) {
                 //Adulto
                 img.setAttribute('src', 'Imagens/adultomulher.png')
             } else {
