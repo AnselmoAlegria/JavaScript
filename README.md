@@ -1,7 +1,7 @@
 # JavaScript
 Portifólio com JavaScript
 
-<a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex001/ex001.html" target:_blank>Nacionalidade
+<a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex001/ex001.html" target="_blank">Nacionalidade
 
 <a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex002/ex002.html">Hora do dia
 
