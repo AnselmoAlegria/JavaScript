@@ -11,6 +11,6 @@ Portifólio com JavaScript
 
 <a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex005/tabuada.html">Tabuada
   
-<a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex006/modelo.html">Analisador de números
+<a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex006/analisador.html">Analisador de números
 
 
