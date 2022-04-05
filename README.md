@@ -1,5 +1,5 @@
 # JavaScript
-Portifólio com JavaScript
+Portifólio JavaScript
 
 <a href="https://anselmoalegria.github.io/JavaScript/Exercicios/Ex001/ex001.html" target="_blank">Nacionalidade
 
